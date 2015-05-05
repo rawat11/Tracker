@@ -1,0 +1,437 @@
+19:12:07.856 [SuiteConfiguration] [INFO ] - Read default configuration values
+19:12:07.858 [SuiteConfiguration] [INFO ] - Default values successfully read
+19:12:07.858 [SuiteConfiguration] [INFO ] - Config values review
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.ccmui_base_url = https://stage.ccmui.adobe.com
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.addons_base_url = https://stage.ccmui.adobe.com
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.acctmgmt_base_url = https://www-stage.adobesunbreak.com
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.feature_set = 
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.implicit_timeout_seconds = 5
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.jenkins_http_location = null
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.keep_browser_open = false
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.retry_attempts = 0
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.sel_hub_url = http://local
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] RengaEnv = na1r-stg1
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] mail.user = ccmTest@adobe.com
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.email_password = LoveBuzz#3rd
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] mail.store.protocol = imaps
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.browsers = windows,firefox,any
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.language = cs
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.countries = us
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.capture = false
+19:12:07.858 [SuiteConfiguration] [INFO ] - [default used] set.test_location = 
+19:12:07.862 [SuiteConfiguration] [INFO ] - test location set on command line is not supported, resetting to actual location
+19:12:07.862 [SuiteConfiguration] [INFO ] - Config values finalized
+19:12:07.862 [SuiteConfiguration] [INFO ] - Renga environment set to: na1r-stg1
+[TestNG] Running:
+  C:\Users\anmani\AppData\Local\Temp\testng-eclipse--566451440\testng-customsuite.xml
+
+19:12:11.121 [BrowserWindow] [INFO ] - Browser maximized. Size is now: (1696, 1036)
+19:12:11.127 [SetDriver] [INFO ] - Completed driver creation
+2015-02-23 19:12:11,219 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:12:11,219 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+2015-02-23 19:12:15,721 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:12:15,721 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+19:12:16.041 [RengaConnector] [INFO ] - User created in Renga.  Email: CCM_us_test+1424698931134_740@adobetest.com
+19:12:16.041 [User] [INFO ] - Created US user: CCM_us_test+1424698931134_740@adobetest.com
+19:12:16.048 [Page] [INFO ] - Page object created
+19:12:16.049 [AcomFooter] [INFO ] - Adobe.com footer created
+19:12:16.050 [Tab] [INFO ] - pod created
+19:12:16.051 [OverviewPlansProductsPod] [INFO ] - plans and products pod on overview tab created
+19:12:16.051 [OverviewAccountPod] [INFO ] - account pod created
+19:12:16.052 [OverviewTab] [INFO ] - communication pod created
+19:12:16.053 [OverviewSecurityPod] [INFO ] - security pod created
+19:12:16.053 [OverviewTab] [INFO ] - overview tab created
+19:12:16.053 [Tab] [INFO ] - pod created
+19:12:16.055 [Tab] [INFO ] - pod created
+19:12:16.055 [PlansManagePlanBillingHistoryPod] [INFO ] - billing history details pod created
+19:12:16.056 [PlansManagePlanPaymentDetailsPod] [INFO ] - payment details pod created
+19:12:16.057 [PlansManagePlanPlanDetailsPod] [INFO ] - plan details pod created
+19:12:16.057 [PlansManagePlan] [INFO ] - manageplan pods created
+19:12:16.057 [PlansPlansPod] [INFO ] - plans and products tab plans pod created
+19:12:16.058 [PlansHardwarePod] [INFO ] - plans and products tab hardware pod created
+19:12:16.058 [PlansProductsProductsPod] [INFO ] - plans and products tab products pod created
+19:12:16.059 [PlansOrderHistoryPod] [INFO ] - plans and products tab order history pod created
+19:12:16.059 [PlansTab] [INFO ] - plans and products tab created
+19:12:16.059 [Tab] [INFO ] - pod created
+19:12:16.060 [AccountNamePod] [INFO ] - account tab's account holder name pod created
+19:12:16.061 [AccountAdobeIdPod] [INFO ] - account tab's adobe id pod created
+19:12:16.061 [AccountTab] [INFO ] - account tab's langauge pod created
+19:12:16.061 [AccountTab] [INFO ] - account tab created
+19:12:16.062 [Tab] [INFO ] - pod created
+19:12:16.063 [SecurityPasswordPod] [INFO ] - security tab's password pod createdd
+19:12:16.063 [SecurityAppUsagePod] [INFO ] - security tab's app usage pod created
+19:12:16.063 [SecurityTab] [INFO ] - security tab created
+19:12:16.064 [Tab] [INFO ] - pod created
+19:12:16.065 [CommunicationPreferencesPod] [INFO ] - communication tab's preferences pod created
+19:12:16.065 [CommunicationInspirePod] [INFO ] - communication tab's inspire pod created
+19:12:16.065 [CommunicationTab] [INFO ] - communication tab created
+19:12:16.066 [Tab] [INFO ] - pod created
+19:12:16.067 [ProfileNamePod] [INFO ] - profile tab's name pod created
+19:12:16.067 [ProfileCompanyPod] [INFO ] - profile tab's company pod created
+19:12:16.068 [ProfilePhotoPod] [INFO ] - profile tab's photo pod created
+19:12:16.068 [ProfileTab] [INFO ] - profile tab created
+19:12:16.068 [Dictionary] [INFO ] - Starting to updating the dictionary to 'cs'.
+19:12:16.306 [Dictionary] [INFO ] - Dictionary update complete. The Dictionary language is now 'cs'.
+19:12:16.311 [Page] [INFO ] - Navigating to 'https://www-stage.adobesunbreak.com/cs/account?features='
+19:12:50.351 [AccountManagementPage] [INFO ] - account management page created
+19:12:50.351 [Susi] [INFO ] - Entering email address into Sign In form
+19:13:05.426 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_username in 15.069 seconds out of 10 seconds.
+19:13:05.512 [Susi] [INFO ] - Entering password into Sign In form
+19:13:05.523 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.011 seconds out of 10 seconds.
+19:13:06.589 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.009 seconds out of 10 seconds.
+19:13:07.618 [Susi] [INFO ] - Clicking sign in button on Sign In form
+19:13:07.629 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: form fieldset button[id=sign_in] in 0.011 seconds out of 10 seconds.
+19:13:18.729 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: input[id="firstName"] in 10.092 seconds out of 10 seconds.
+19:13:18.833 [AccountNamePod] [INFO ] - First Name entered into form
+19:13:21.844 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: button.btn.btn-primary in 0.011 seconds out of 10 seconds.
+19:13:22.607 [Tab] [INFO ] - save button clicked
+19:13:22.609 [Dictionary] [INFO ] - looked up: 'ACCOUNT_SAVE_ACCOUNT_SUCCESS' & found: 'Zm?ny ve vašem ú?tu byly uloženy.'
+19:13:23.302 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: h5.alert-message:nth-child(2) > span:nth-child(2) > span:nth-child(1) in 0.692 seconds out of 20 seconds.
+19:13:23.307 [ValidateWebElement] [INFO ] - validateTextEqual Expected:Zm?ny ve vašem ú?tu byly uloženy., Found:Zm?ny ve vašem ú?tu byly uloženy.
+19:13:43.613 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: input[id="firstName"] in 4.985 seconds out of 10 seconds.
+19:13:43.617 [ValidateWebElement] [INFO ] - validateAttributeTextEquals Attribute:value, Expected:First Name, Found:First Name
+19:13:43.631 [SetTestClassNG] [INFO ] - Entering afterEachTest @AfterMethod
+19:13:43.631 [SetTestClassNG] [INFO ] - (@AfterMethod) checking if the browser should be left open
+19:13:43.760 [SetTestClassNG] [INFO ] - (@AfterMethod) quiting browser
+19:13:43.760 [SetTestClassNG] [INFO ] - Exiting afterEachTest @AfterMethod
+19:13:46.394 [BrowserWindow] [INFO ] - Browser maximized. Size is now: (1696, 1036)
+19:13:46.398 [SetDriver] [INFO ] - Completed driver creation
+2015-02-23 19:13:46,399 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:13:46,399 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+2015-02-23 19:13:47,470 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:13:47,470 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+19:13:47.814 [RengaConnector] [INFO ] - User created in Renga.  Email: CCM_us_test+1424699026399_040@adobetest.com
+19:13:47.814 [User] [INFO ] - Created US user: CCM_us_test+1424699026399_040@adobetest.com
+19:13:47.815 [Page] [INFO ] - Page object created
+19:13:47.815 [AcomFooter] [INFO ] - Adobe.com footer created
+19:13:47.815 [Tab] [INFO ] - pod created
+19:13:47.815 [OverviewPlansProductsPod] [INFO ] - plans and products pod on overview tab created
+19:13:47.815 [OverviewAccountPod] [INFO ] - account pod created
+19:13:47.815 [OverviewTab] [INFO ] - communication pod created
+19:13:47.815 [OverviewSecurityPod] [INFO ] - security pod created
+19:13:47.815 [OverviewTab] [INFO ] - overview tab created
+19:13:47.815 [Tab] [INFO ] - pod created
+19:13:47.815 [Tab] [INFO ] - pod created
+19:13:47.815 [PlansManagePlanBillingHistoryPod] [INFO ] - billing history details pod created
+19:13:47.815 [PlansManagePlanPaymentDetailsPod] [INFO ] - payment details pod created
+19:13:47.815 [PlansManagePlanPlanDetailsPod] [INFO ] - plan details pod created
+19:13:47.815 [PlansManagePlan] [INFO ] - manageplan pods created
+19:13:47.815 [PlansPlansPod] [INFO ] - plans and products tab plans pod created
+19:13:47.815 [PlansHardwarePod] [INFO ] - plans and products tab hardware pod created
+19:13:47.815 [PlansProductsProductsPod] [INFO ] - plans and products tab products pod created
+19:13:47.815 [PlansOrderHistoryPod] [INFO ] - plans and products tab order history pod created
+19:13:47.815 [PlansTab] [INFO ] - plans and products tab created
+19:13:47.815 [Tab] [INFO ] - pod created
+19:13:47.815 [AccountNamePod] [INFO ] - account tab's account holder name pod created
+19:13:47.815 [AccountAdobeIdPod] [INFO ] - account tab's adobe id pod created
+19:13:47.815 [AccountTab] [INFO ] - account tab's langauge pod created
+19:13:47.815 [AccountTab] [INFO ] - account tab created
+19:13:47.815 [Tab] [INFO ] - pod created
+19:13:47.815 [SecurityPasswordPod] [INFO ] - security tab's password pod createdd
+19:13:47.815 [SecurityAppUsagePod] [INFO ] - security tab's app usage pod created
+19:13:47.815 [SecurityTab] [INFO ] - security tab created
+19:13:47.815 [Tab] [INFO ] - pod created
+19:13:47.815 [CommunicationPreferencesPod] [INFO ] - communication tab's preferences pod created
+19:13:47.816 [CommunicationInspirePod] [INFO ] - communication tab's inspire pod created
+19:13:47.816 [CommunicationTab] [INFO ] - communication tab created
+19:13:47.816 [Tab] [INFO ] - pod created
+19:13:47.816 [ProfileNamePod] [INFO ] - profile tab's name pod created
+19:13:47.816 [ProfileCompanyPod] [INFO ] - profile tab's company pod created
+19:13:47.816 [ProfilePhotoPod] [INFO ] - profile tab's photo pod created
+19:13:47.816 [ProfileTab] [INFO ] - profile tab created
+19:13:47.816 [Dictionary] [INFO ] - Dictionary language is already set to cs
+19:13:47.820 [Page] [INFO ] - Navigating to 'https://www-stage.adobesunbreak.com/cs/account?features='
+19:14:11.495 [AccountManagementPage] [INFO ] - account management page created
+19:14:11.495 [Susi] [INFO ] - Entering email address into Sign In form
+19:15:16.717 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_username in 65.222 seconds out of 10 seconds.
+19:15:16.796 [Susi] [INFO ] - Entering password into Sign In form
+19:15:16.820 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.024 seconds out of 10 seconds.
+19:15:17.895 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.018 seconds out of 10 seconds.
+19:15:18.954 [Susi] [INFO ] - Clicking sign in button on Sign In form
+19:15:18.962 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: form fieldset button[id=sign_in] in 0.008 seconds out of 10 seconds.
+19:15:25.951 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: input[id="firstName"] in 5.83 seconds out of 10 seconds.
+19:15:26.079 [AccountNamePod] [INFO ] - Last Name entered into form
+19:15:29.123 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: button.btn.btn-primary in 0.044 seconds out of 10 seconds.
+19:15:29.967 [Tab] [INFO ] - save button clicked
+19:15:29.967 [Dictionary] [INFO ] - looked up: 'ACCOUNT_SAVE_ACCOUNT_SUCCESS' & found: 'Zm?ny ve vašem ú?tu byly uloženy.'
+19:15:30.946 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: h5.alert-message:nth-child(2) > span:nth-child(2) > span:nth-child(1) in 0.979 seconds out of 20 seconds.
+19:15:30.960 [ValidateWebElement] [INFO ] - validateTextEqual Expected:Zm?ny ve vašem ú?tu byly uloženy., Found:Zm?ny ve vašem ú?tu byly uloženy.
+19:15:48.264 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: input[id="firstName"] in 2.259 seconds out of 10 seconds.
+19:15:48.276 [ValidateWebElement] [INFO ] - validateAttributeTextEquals Attribute:value, Expected:Last Name, Found:Last Name
+19:15:48.277 [SetTestClassNG] [INFO ] - Entering afterEachTest @AfterMethod
+19:15:48.277 [SetTestClassNG] [INFO ] - (@AfterMethod) checking if the browser should be left open
+19:15:48.396 [SetTestClassNG] [INFO ] - (@AfterMethod) quiting browser
+19:15:48.396 [SetTestClassNG] [INFO ] - Exiting afterEachTest @AfterMethod
+19:15:50.976 [BrowserWindow] [INFO ] - Browser maximized. Size is now: (1696, 1036)
+19:15:50.980 [SetDriver] [INFO ] - Completed driver creation
+2015-02-23 19:15:50,981 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:15:50,982 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+2015-02-23 19:15:53,873 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:15:53,873 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+19:15:59.088 [RengaConnector] [INFO ] - User created in Renga.  Email: CCM_us_test+1424699150981_487@adobetest.com
+19:15:59.088 [User] [INFO ] - Created US user: CCM_us_test+1424699150981_487@adobetest.com
+19:15:59.088 [Page] [INFO ] - Page object created
+19:15:59.088 [AcomFooter] [INFO ] - Adobe.com footer created
+19:15:59.088 [Tab] [INFO ] - pod created
+19:15:59.089 [OverviewPlansProductsPod] [INFO ] - plans and products pod on overview tab created
+19:15:59.089 [OverviewAccountPod] [INFO ] - account pod created
+19:15:59.089 [OverviewTab] [INFO ] - communication pod created
+19:15:59.089 [OverviewSecurityPod] [INFO ] - security pod created
+19:15:59.089 [OverviewTab] [INFO ] - overview tab created
+19:15:59.089 [Tab] [INFO ] - pod created
+19:15:59.089 [Tab] [INFO ] - pod created
+19:15:59.089 [PlansManagePlanBillingHistoryPod] [INFO ] - billing history details pod created
+19:15:59.089 [PlansManagePlanPaymentDetailsPod] [INFO ] - payment details pod created
+19:15:59.089 [PlansManagePlanPlanDetailsPod] [INFO ] - plan details pod created
+19:15:59.089 [PlansManagePlan] [INFO ] - manageplan pods created
+19:15:59.089 [PlansPlansPod] [INFO ] - plans and products tab plans pod created
+19:15:59.089 [PlansHardwarePod] [INFO ] - plans and products tab hardware pod created
+19:15:59.089 [PlansProductsProductsPod] [INFO ] - plans and products tab products pod created
+19:15:59.089 [PlansOrderHistoryPod] [INFO ] - plans and products tab order history pod created
+19:15:59.089 [PlansTab] [INFO ] - plans and products tab created
+19:15:59.089 [Tab] [INFO ] - pod created
+19:15:59.089 [AccountNamePod] [INFO ] - account tab's account holder name pod created
+19:15:59.089 [AccountAdobeIdPod] [INFO ] - account tab's adobe id pod created
+19:15:59.089 [AccountTab] [INFO ] - account tab's langauge pod created
+19:15:59.089 [AccountTab] [INFO ] - account tab created
+19:15:59.089 [Tab] [INFO ] - pod created
+19:15:59.089 [SecurityPasswordPod] [INFO ] - security tab's password pod createdd
+19:15:59.089 [SecurityAppUsagePod] [INFO ] - security tab's app usage pod created
+19:15:59.089 [SecurityTab] [INFO ] - security tab created
+19:15:59.089 [Tab] [INFO ] - pod created
+19:15:59.089 [CommunicationPreferencesPod] [INFO ] - communication tab's preferences pod created
+19:15:59.089 [CommunicationInspirePod] [INFO ] - communication tab's inspire pod created
+19:15:59.089 [CommunicationTab] [INFO ] - communication tab created
+19:15:59.089 [Tab] [INFO ] - pod created
+19:15:59.089 [ProfileNamePod] [INFO ] - profile tab's name pod created
+19:15:59.089 [ProfileCompanyPod] [INFO ] - profile tab's company pod created
+19:15:59.090 [ProfilePhotoPod] [INFO ] - profile tab's photo pod created
+19:15:59.090 [ProfileTab] [INFO ] - profile tab created
+19:15:59.090 [Dictionary] [INFO ] - Dictionary language is already set to cs
+19:15:59.102 [Page] [INFO ] - Navigating to 'https://www-stage.adobesunbreak.com/cs/account?features='
+19:17:01.210 [AccountManagementPage] [INFO ] - account management page created
+19:17:01.210 [Susi] [INFO ] - Entering email address into Sign In form
+19:17:18.256 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_username in 17.046 seconds out of 10 seconds.
+19:17:18.337 [Susi] [INFO ] - Entering password into Sign In form
+19:17:18.354 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.016 seconds out of 10 seconds.
+19:17:19.447 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.019 seconds out of 10 seconds.
+19:17:20.490 [Susi] [INFO ] - Clicking sign in button on Sign In form
+19:17:20.508 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: form fieldset button[id=sign_in] in 0.016 seconds out of 10 seconds.
+19:17:28.547 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: input[id="firstName"] in 6.902 seconds out of 10 seconds.
+19:17:28.550 [ValidateWebElement] [INFO ] - validateAttributeTextEquals Attribute:value, Expected:first, Found:first
+19:17:28.551 [SetTestClassNG] [INFO ] - Entering afterEachTest @AfterMethod
+19:17:28.551 [SetTestClassNG] [INFO ] - (@AfterMethod) checking if the browser should be left open
+19:17:28.678 [SetTestClassNG] [INFO ] - (@AfterMethod) quiting browser
+19:17:28.678 [SetTestClassNG] [INFO ] - Exiting afterEachTest @AfterMethod
+19:17:31.259 [BrowserWindow] [INFO ] - Browser maximized. Size is now: (1696, 1036)
+19:17:31.264 [SetDriver] [INFO ] - Completed driver creation
+2015-02-23 19:17:31,265 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:17:31,265 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+2015-02-23 19:17:32,508 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:17:32,508 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+19:17:32.812 [RengaConnector] [INFO ] - User created in Renga.  Email: CCM_us_test+1424699251265_220@adobetest.com
+19:17:32.812 [User] [INFO ] - Created US user: CCM_us_test+1424699251265_220@adobetest.com
+19:17:32.812 [Page] [INFO ] - Page object created
+19:17:32.812 [AcomFooter] [INFO ] - Adobe.com footer created
+19:17:32.812 [Tab] [INFO ] - pod created
+19:17:32.812 [OverviewPlansProductsPod] [INFO ] - plans and products pod on overview tab created
+19:17:32.812 [OverviewAccountPod] [INFO ] - account pod created
+19:17:32.812 [OverviewTab] [INFO ] - communication pod created
+19:17:32.812 [OverviewSecurityPod] [INFO ] - security pod created
+19:17:32.812 [OverviewTab] [INFO ] - overview tab created
+19:17:32.812 [Tab] [INFO ] - pod created
+19:17:32.812 [Tab] [INFO ] - pod created
+19:17:32.812 [PlansManagePlanBillingHistoryPod] [INFO ] - billing history details pod created
+19:17:32.812 [PlansManagePlanPaymentDetailsPod] [INFO ] - payment details pod created
+19:17:32.812 [PlansManagePlanPlanDetailsPod] [INFO ] - plan details pod created
+19:17:32.812 [PlansManagePlan] [INFO ] - manageplan pods created
+19:17:32.812 [PlansPlansPod] [INFO ] - plans and products tab plans pod created
+19:17:32.812 [PlansHardwarePod] [INFO ] - plans and products tab hardware pod created
+19:17:32.812 [PlansProductsProductsPod] [INFO ] - plans and products tab products pod created
+19:17:32.812 [PlansOrderHistoryPod] [INFO ] - plans and products tab order history pod created
+19:17:32.812 [PlansTab] [INFO ] - plans and products tab created
+19:17:32.812 [Tab] [INFO ] - pod created
+19:17:32.812 [AccountNamePod] [INFO ] - account tab's account holder name pod created
+19:17:32.812 [AccountAdobeIdPod] [INFO ] - account tab's adobe id pod created
+19:17:32.812 [AccountTab] [INFO ] - account tab's langauge pod created
+19:17:32.812 [AccountTab] [INFO ] - account tab created
+19:17:32.812 [Tab] [INFO ] - pod created
+19:17:32.812 [SecurityPasswordPod] [INFO ] - security tab's password pod createdd
+19:17:32.812 [SecurityAppUsagePod] [INFO ] - security tab's app usage pod created
+19:17:32.812 [SecurityTab] [INFO ] - security tab created
+19:17:32.812 [Tab] [INFO ] - pod created
+19:17:32.813 [CommunicationPreferencesPod] [INFO ] - communication tab's preferences pod created
+19:17:32.813 [CommunicationInspirePod] [INFO ] - communication tab's inspire pod created
+19:17:32.813 [CommunicationTab] [INFO ] - communication tab created
+19:17:32.813 [Tab] [INFO ] - pod created
+19:17:32.813 [ProfileNamePod] [INFO ] - profile tab's name pod created
+19:17:32.813 [ProfileCompanyPod] [INFO ] - profile tab's company pod created
+19:17:32.813 [ProfilePhotoPod] [INFO ] - profile tab's photo pod created
+19:17:32.813 [ProfileTab] [INFO ] - profile tab created
+19:17:32.813 [Dictionary] [INFO ] - Dictionary language is already set to cs
+19:17:32.817 [Page] [INFO ] - Navigating to 'https://www-stage.adobesunbreak.com/cs/account?features='
+19:17:43.671 [AccountManagementPage] [INFO ] - account management page created
+19:17:43.671 [Susi] [INFO ] - Entering email address into Sign In form
+19:17:48.577 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_username in 4.906 seconds out of 10 seconds.
+19:17:48.666 [Susi] [INFO ] - Entering password into Sign In form
+19:17:48.681 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.014 seconds out of 10 seconds.
+19:17:49.756 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.018 seconds out of 10 seconds.
+19:17:50.800 [Susi] [INFO ] - Clicking sign in button on Sign In form
+19:17:50.817 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: form fieldset button[id=sign_in] in 0.017 seconds out of 10 seconds.
+19:17:58.839 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: input[id="lastName"] in 6.118 seconds out of 10 seconds.
+19:17:58.879 [ValidateWebElement] [INFO ] - validateAttributeTextEquals Attribute:value, Expected:last, Found:last
+19:17:58.880 [SetTestClassNG] [INFO ] - Entering afterEachTest @AfterMethod
+19:17:58.880 [SetTestClassNG] [INFO ] - (@AfterMethod) checking if the browser should be left open
+19:17:58.996 [SetTestClassNG] [INFO ] - (@AfterMethod) quiting browser
+19:17:58.996 [SetTestClassNG] [INFO ] - Exiting afterEachTest @AfterMethod
+19:18:01.585 [BrowserWindow] [INFO ] - Browser maximized. Size is now: (1696, 1036)
+19:18:01.601 [SetDriver] [INFO ] - Completed driver creation
+2015-02-23 19:18:01,602 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:18:01,602 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+2015-02-23 19:18:02,737 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:18:02,737 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+19:18:03.112 [RengaConnector] [INFO ] - User created in Renga.  Email: CCM_us_test+1424699281602_178@adobetest.com
+19:18:03.112 [User] [INFO ] - Created US user: CCM_us_test+1424699281602_178@adobetest.com
+19:18:03.113 [Page] [INFO ] - Page object created
+19:18:03.113 [AcomFooter] [INFO ] - Adobe.com footer created
+19:18:03.113 [Tab] [INFO ] - pod created
+19:18:03.113 [OverviewPlansProductsPod] [INFO ] - plans and products pod on overview tab created
+19:18:03.113 [OverviewAccountPod] [INFO ] - account pod created
+19:18:03.113 [OverviewTab] [INFO ] - communication pod created
+19:18:03.113 [OverviewSecurityPod] [INFO ] - security pod created
+19:18:03.113 [OverviewTab] [INFO ] - overview tab created
+19:18:03.113 [Tab] [INFO ] - pod created
+19:18:03.113 [Tab] [INFO ] - pod created
+19:18:03.113 [PlansManagePlanBillingHistoryPod] [INFO ] - billing history details pod created
+19:18:03.113 [PlansManagePlanPaymentDetailsPod] [INFO ] - payment details pod created
+19:18:03.113 [PlansManagePlanPlanDetailsPod] [INFO ] - plan details pod created
+19:18:03.113 [PlansManagePlan] [INFO ] - manageplan pods created
+19:18:03.113 [PlansPlansPod] [INFO ] - plans and products tab plans pod created
+19:18:03.113 [PlansHardwarePod] [INFO ] - plans and products tab hardware pod created
+19:18:03.113 [PlansProductsProductsPod] [INFO ] - plans and products tab products pod created
+19:18:03.113 [PlansOrderHistoryPod] [INFO ] - plans and products tab order history pod created
+19:18:03.113 [PlansTab] [INFO ] - plans and products tab created
+19:18:03.113 [Tab] [INFO ] - pod created
+19:18:03.113 [AccountNamePod] [INFO ] - account tab's account holder name pod created
+19:18:03.113 [AccountAdobeIdPod] [INFO ] - account tab's adobe id pod created
+19:18:03.113 [AccountTab] [INFO ] - account tab's langauge pod created
+19:18:03.113 [AccountTab] [INFO ] - account tab created
+19:18:03.113 [Tab] [INFO ] - pod created
+19:18:03.113 [SecurityPasswordPod] [INFO ] - security tab's password pod createdd
+19:18:03.113 [SecurityAppUsagePod] [INFO ] - security tab's app usage pod created
+19:18:03.113 [SecurityTab] [INFO ] - security tab created
+19:18:03.113 [Tab] [INFO ] - pod created
+19:18:03.113 [CommunicationPreferencesPod] [INFO ] - communication tab's preferences pod created
+19:18:03.113 [CommunicationInspirePod] [INFO ] - communication tab's inspire pod created
+19:18:03.113 [CommunicationTab] [INFO ] - communication tab created
+19:18:03.113 [Tab] [INFO ] - pod created
+19:18:03.113 [ProfileNamePod] [INFO ] - profile tab's name pod created
+19:18:03.113 [ProfileCompanyPod] [INFO ] - profile tab's company pod created
+19:18:03.113 [ProfilePhotoPod] [INFO ] - profile tab's photo pod created
+19:18:03.113 [ProfileTab] [INFO ] - profile tab created
+19:18:03.114 [Dictionary] [INFO ] - Dictionary language is already set to cs
+19:18:03.118 [Page] [INFO ] - Navigating to 'https://www-stage.adobesunbreak.com/cs/account?features='
+19:18:12.257 [AccountManagementPage] [INFO ] - account management page created
+19:18:12.257 [Susi] [INFO ] - Entering email address into Sign In form
+19:18:21.737 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_username in 9.48 seconds out of 10 seconds.
+19:18:21.818 [Susi] [INFO ] - Entering password into Sign In form
+19:18:21.835 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.017 seconds out of 10 seconds.
+19:18:22.911 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.018 seconds out of 10 seconds.
+19:18:23.955 [Susi] [INFO ] - Clicking sign in button on Sign In form
+19:18:23.973 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: form fieldset button[id=sign_in] in 0.017 seconds out of 10 seconds.
+19:18:27.383 [Dictionary] [INFO ] - looked up: 'ACCOUNT_ACCOUNT_HOLDER_NAME' & found: 'Jméno vlastníka ú?tu'
+19:18:36.027 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: div.account-settings>div.row.section-group>div:nth-of-type(1)>h4 in 8.644 seconds out of 10 seconds.
+19:18:36.045 [ValidateWebElement] [INFO ] - validateTextEqual Expected:Jméno vlastníka ú?tu, Found:Jméno vlastníka ú?tu
+19:18:36.046 [SetTestClassNG] [INFO ] - Entering afterEachTest @AfterMethod
+19:18:36.046 [SetTestClassNG] [INFO ] - (@AfterMethod) checking if the browser should be left open
+19:18:36.166 [SetTestClassNG] [INFO ] - (@AfterMethod) quiting browser
+19:18:36.166 [SetTestClassNG] [INFO ] - Exiting afterEachTest @AfterMethod
+19:18:38.701 [BrowserWindow] [INFO ] - Browser maximized. Size is now: (1696, 1036)
+19:18:38.705 [SetDriver] [INFO ] - Completed driver creation
+2015-02-23 19:18:38,706 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:18:38,706 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+2015-02-23 19:18:39,851 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - connectionTimeout set: 30000
+2015-02-23 19:18:39,851 [main] INFO  com.adobe.hs.renga.hsi.impl.TCIAMFBase - rengaEndpoint set: https://na1r-stg1.services.adobe.com/account/amfgateway2/
+19:18:40.228 [RengaConnector] [INFO ] - User created in Renga.  Email: CCM_us_test+1424699318706_979@adobetest.com
+19:18:40.228 [User] [INFO ] - Created US user: CCM_us_test+1424699318706_979@adobetest.com
+19:18:40.228 [Page] [INFO ] - Page object created
+19:18:40.228 [AcomFooter] [INFO ] - Adobe.com footer created
+19:18:40.228 [Tab] [INFO ] - pod created
+19:18:40.229 [OverviewPlansProductsPod] [INFO ] - plans and products pod on overview tab created
+19:18:40.229 [OverviewAccountPod] [INFO ] - account pod created
+19:18:40.229 [OverviewTab] [INFO ] - communication pod created
+19:18:40.229 [OverviewSecurityPod] [INFO ] - security pod created
+19:18:40.229 [OverviewTab] [INFO ] - overview tab created
+19:18:40.229 [Tab] [INFO ] - pod created
+19:18:40.229 [Tab] [INFO ] - pod created
+19:18:40.229 [PlansManagePlanBillingHistoryPod] [INFO ] - billing history details pod created
+19:18:40.229 [PlansManagePlanPaymentDetailsPod] [INFO ] - payment details pod created
+19:18:40.229 [PlansManagePlanPlanDetailsPod] [INFO ] - plan details pod created
+19:18:40.229 [PlansManagePlan] [INFO ] - manageplan pods created
+19:18:40.229 [PlansPlansPod] [INFO ] - plans and products tab plans pod created
+19:18:40.229 [PlansHardwarePod] [INFO ] - plans and products tab hardware pod created
+19:18:40.229 [PlansProductsProductsPod] [INFO ] - plans and products tab products pod created
+19:18:40.229 [PlansOrderHistoryPod] [INFO ] - plans and products tab order history pod created
+19:18:40.229 [PlansTab] [INFO ] - plans and products tab created
+19:18:40.229 [Tab] [INFO ] - pod created
+19:18:40.229 [AccountNamePod] [INFO ] - account tab's account holder name pod created
+19:18:40.229 [AccountAdobeIdPod] [INFO ] - account tab's adobe id pod created
+19:18:40.229 [AccountTab] [INFO ] - account tab's langauge pod created
+19:18:40.229 [AccountTab] [INFO ] - account tab created
+19:18:40.229 [Tab] [INFO ] - pod created
+19:18:40.229 [SecurityPasswordPod] [INFO ] - security tab's password pod createdd
+19:18:40.229 [SecurityAppUsagePod] [INFO ] - security tab's app usage pod created
+19:18:40.229 [SecurityTab] [INFO ] - security tab created
+19:18:40.229 [Tab] [INFO ] - pod created
+19:18:40.229 [CommunicationPreferencesPod] [INFO ] - communication tab's preferences pod created
+19:18:40.229 [CommunicationInspirePod] [INFO ] - communication tab's inspire pod created
+19:18:40.229 [CommunicationTab] [INFO ] - communication tab created
+19:18:40.229 [Tab] [INFO ] - pod created
+19:18:40.229 [ProfileNamePod] [INFO ] - profile tab's name pod created
+19:18:40.229 [ProfileCompanyPod] [INFO ] - profile tab's company pod created
+19:18:40.229 [ProfilePhotoPod] [INFO ] - profile tab's photo pod created
+19:18:40.229 [ProfileTab] [INFO ] - profile tab created
+19:18:40.229 [Dictionary] [INFO ] - Dictionary language is already set to cs
+19:18:40.233 [Page] [INFO ] - Navigating to 'https://www-stage.adobesunbreak.com/cs/account?features='
+19:18:56.536 [AccountManagementPage] [INFO ] - account management page created
+19:18:56.536 [Susi] [INFO ] - Entering email address into Sign In form
+19:19:02.947 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_username in 6.41 seconds out of 10 seconds.
+19:19:03.034 [Susi] [INFO ] - Entering password into Sign In form
+19:19:03.045 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.011 seconds out of 10 seconds.
+19:19:04.110 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: #adobeid_password in 0.008 seconds out of 10 seconds.
+19:19:05.138 [Susi] [INFO ] - Clicking sign in button on Sign In form
+19:19:05.148 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: form fieldset button[id=sign_in] in 0.009 seconds out of 10 seconds.
+19:19:14.690 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: div.account-settings>div.row.section-group>div:nth-of-type(1)>h4>button in 8.594 seconds out of 10 seconds.
+19:19:14.750 [Dictionary] [INFO ] - looked up: 'ACCOUNT_THIS_IS_THE_LEGAL' & found: 'Jedná se o jméno zadané b?hem vytvá?ení identifikátoru Adobe ID a m?že se lišit od jména ve vašem profilu.'
+19:19:14.759 [SetDriver] [INFO ] - SetDriver.waitForElementVisible() found: By.selector: .divider > div:nth-child(4) > h5:nth-child(1) in 0.009 seconds out of 10 seconds.
+19:19:14.766 [ValidateWebElement] [INFO ] - validateTextEqual Expected:Jedná se o jméno zadané b?hem vytvá?ení identifikátoru Adobe ID a m?že se lišit od jména ve vašem profilu., Found:Jedná se o jméno zadané b?hem vytvá?ení identifikátoru Adobe ID a m?že se lišit od jména ve vašem profilu.
+19:19:14.767 [SetTestClassNG] [INFO ] - Entering afterEachTest @AfterMethod
+19:19:14.767 [SetTestClassNG] [INFO ] - (@AfterMethod) checking if the browser should be left open
+19:19:14.880 [SetTestClassNG] [INFO ] - (@AfterMethod) quiting browser
+19:19:14.880 [SetTestClassNG] [INFO ] - Exiting afterEachTest @AfterMethod
+19:19:14.880 [SetTestClassNG] [INFO ] - (@AfterClass) checking if browser left open
+19:19:14.880 [SetTestClassNG] [INFO ] - (@AfterClass) quitting left open browser
+PASSED: updateAccountHolderFirstName
+PASSED: updateAccountHolderLastName
+PASSED: verifyAccountHolderFirstName
+PASSED: verifyAccountHolderLastName
+PASSED: verifyAccountHolderNamePodTitle
+PASSED: verifyInfoText
+
+===============================================
+    Default test
+    Tests run: 6, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 6, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@6743e87d: 2 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@5ede0ae6: 37 ms
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@37a7481f: 68 ms
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@70e273fa: 3 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 0 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@6920d5d: 40 ms

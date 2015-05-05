@@ -1,0 +1,115 @@
+1429461057  |  2:anmani  |  Add Task  |  'task 32','Linguistic','CCM UI','Team1','5','2015-04-19','2015-04-28','rawat','','','','','','Pending'  |
+
+1429461223  |  2:rawat  |  Update Task  |  status='Pending',start_date='2015-04-19',completion_date='2015-04-30',lang='...',link='...',bugs='...',notes='...',efforts='30' where task_name='New Task UI'  |
+
+1429461620  |  1:mdutt  |  Add Project  |  'Check Log','2015-04-19','2015-04-30','...'  |
+
+1429461630  |  1:mdutt  |  File Upload  |  file='UIissues.xls' where p_name='Check Log'  |
+
+1429462060  |  1:mdutt  |  Add Team  |  'Team1','Check Log','anmani'  |
+
+1429462076  |  1:mdutt  |  Add Team  |  'Delete Team','Check Log','rawat'  |
+
+1429462084  |  1:mdutt  |  Delete Team  |  Deletion Team id : 9  |
+
+1429462101  |  1:mdutt  |  Add Task  |  'task 3','Functional','Check Log','Team1','8','2015-04-19','2015-04-21','rawat','','','','','','Pending'  |
+
+1429462766  |  1:mdutt  |  Update Task  |  status='',start_date='1970-01-01',completion_date='1970-01-01',lang='',link='',bugs='',notes='jhl',efforts='' where task_name='Task 3'  |
+
+1429463144  |  1:mdutt  |  Delete Task  |  Task Id : Array  |
+
+1429463185  |  1:mdutt  |  Delete Task  |  Task Id : 1  |
+
+1429463252  |  1:mdutt  |  Add Task  |  'task 3','Linguistic','Check Log','Team1','8','2015-04-19','2015-04-29','rawat','','','','','','Pending'  |
+
+1429463731  |  1:mdutt  |  Delete Task  |  Task Id : 57  |
+
+1429463743  |  1:mdutt  |  Delete Task  |  Task Id : 44,45,48  |
+
+1429463791  |  1:mdutt  |  Add Task  |  'task 3','Functional','Check Log','Team1','8','2015-04-01','2015-04-30','rawat','','','','','','Pending'  |
+
+1429463828  |  1:mdutt  |  Update Task  |  status='Pending',start_date='2015-04-01',completion_date='2015-04-30',lang='...',link='...',bugs='...',notes='...',efforts='30' where task_name='task 3' and p_name = 'Check Log'  |
+
+1429500587  |  2:anmani  |  Add Task  |  'New Task','Functional','CCM E2E','Team 1','7','2015-04-20','2015-04-30','anmani','','','','','','Pending'  |
+
+1429500604  |  2:anmani  |  Update Task  |  status='Pending',start_date='2015-04-20',completion_date='2015-04-30',lang='',link='',bugs='',notes='',efforts='30' where task_name='New Task' and p_name = 'CCM E2E'  |
+
+1429500667  |  2:anmani  |  Delete Task  |  Task Id : 51  |
+
+1429500685  |  2:anmani  |  Delete Task  |  Task Id : 59,50  |
+
+1429507359  |  1:mdutt  |  Add Project  |  'CCM UI','2015-04-20','2015-05-27','...'  |
+
+1429507764  |  1:mdutt  |  Add Team  |  'Team 1','CCM UI','anmani'  |
+
+1429507788  |  1:mdutt  |  Add Task  |  'Task 1','Linguistic','CCM UI','Team 1','9','2015-04-20','2015-04-30','anmani','','','','','','Pending'  |
+
+1429507799  |  1:mdutt  |  Update Task  |  status='Pending',start_date='2015-04-20',completion_date='2015-04-30',lang='',link='',bugs='',notes='',efforts='30' where task_name='Task 1' and p_name = 'CCM UI'  |
+
+1429507816  |  1:mdutt  |  Add Project  |  'CCM E2E','2015-04-20','2015-04-30','....'  |
+
+1429507840  |  1:mdutt  |  Add Team  |  'Team 1','CCM E2E','anmani'  |
+
+1429507857  |  1:mdutt  |  Add Task  |  'Task 1','Linguistic','CCM E2E','Team 1','10','2015-04-20','2015-04-30','anmani','','','','','','Pending'  |
+
+1429507873  |  1:mdutt  |  Update Task  |  status='Pending',start_date='2015-04-20',completion_date='2015-04-30',lang='',link='',bugs='',notes='',efforts='40' where task_name='Task 1' and p_name = 'CCM E2E'  |
+
+1429510230  |  1:mdutt  |  Add Project  |  'fewfeg','2015-04-21','2015-04-30','...'  |
+
+1429510343  |  1:mdutt  |  Add Team  |  'team 1','fewfeg','rawat'  |
+
+1429510418  |  1:mdutt  |  Update Task  |  status='Pending',start_date='2015-04-20',completion_date='2015-04-30',lang='',link='.........',bugs='',notes='',efforts='40' where task_name='Task 1' and p_name = 'CCM UI'  |
+
+1429510423  |  1:mdutt  |  Update Task  |  status='',start_date='1970-01-01',completion_date='1970-01-01',lang='',link='.........',bugs='',notes='',efforts='' where task_name='Task 1' and p_name = 'CCM UI'  |
+
+1429530030  |  1:mdutt  |  Add Project  |  'New Project','2015-04-01','2015-04-30','...'  |
+
+1429530039  |  1:mdutt  |  File Upload  |  file='TClist.xlsx' where p_name='New Project'  |
+
+1429530060  |  1:mdutt  |  Add Team  |  'New Team','New Project','anmani'  |
+
+1429530062  |  1:mdutt  |  Delete Team  |  Deletion Team id : 9  |
+
+1429530078  |  1:mdutt  |  Add Team  |  'Team 1','New Project','anmani'  |
+
+1429530094  |  1:mdutt  |  Add Task  |  'Task 1','Functional','New Project','Team 1','10','2015-04-20','2015-04-30','anmani','','','','','','Pending'  |
+
+1429530701  |  1:mdutt  |  Add Project  |  'mdutt','2015-04-20','2015-04-30','...'  |
+
+1429530716  |  1:mdutt  |  Add Team  |  'Team 1','mdutt','anmani'  |
+
+1429530734  |  1:mdutt  |  Add Task  |  'Task 1','Functional','mdutt','Team 1','11','2015-04-20','2015-04-30','anmani','','','','','','Pending'  |
+
+1429535568  |  1:mdutt  |  Add Task  |  'new task','Functional','mdutt','Team 1','11','2015-04-21','2015-04-30','anmani','','','','','','Pending'  |
+
+1429535633  |  1:mdutt  |  Add Task  |  'new task1','Functional','mdutt','Team 1','11','2015-04-15','2015-04-30','anmani','','','','as','as','Pending'  |
+
+1429535751  |  1:mdutt  |  Add Task  |  'new task','Linguistic','New Project','Team 1','10','2015-04-08','2015-04-30','anmani','','','','aaaaaa','0','Pending'  |
+
+1429599104  |  1:mdutt  |  Add Project  |  'fgfds','2015-04-14','2015-04-22','fgg'  |
+
+1429599130  |  1:mdutt  |  Add Team  |  'Dilato','fgfds','jia'  |
+
+1429599134  |  1:mdutt  |  Delete Team  |  Deletion Team id : 12  |
+
+1429620521  |  1:mdutt  |  Add Project  |  'CC E2E Testing','2015-01-01','2015-12-31','CC E2E Localization Testing'  |
+
+1429620579  |  1:mdutt  |  Add Team  |  'Dilato','CC E2E Testing','moanand'  |
+
+1429620817  |  1:mdutt  |  Add Task  |  'Test','Functional','CC E2E Testing','Dilato','13','2015-04-20','2015-04-23','moanand','test','test','test','test','0','Pending'  |
+
+1430287793  |  1:rawat  |  Add Project  |  'CCMUI','2015-04-01','2017-12-31','Purchase Plan Workflow'  |
+
+1430287862  |  1:rawat  |  Add Project  |  'Stormcloud','2015-04-01','2017-12-31','Web Portal for sharing the Files and Folders'  |
+
+1430287911  |  1:rawat  |  Add Project  |  'Account Management','2015-04-01','2017-12-31','Web portal for the user to manage their Account.'  |
+
+1430287952  |  1:rawat  |  Add Team  |  'Account Management','Account Management','neearora@adobe.com'  |
+
+1430287983  |  1:rawat  |  Add Team  |  'CCM UI','CCMUI','neearora@adobe.com'  |
+
+1430288006  |  1:rawat  |  Add Team  |  'ASSETS','Stormcloud','neearora@adobe.com'  |
+
+1430385764  |  1:anmani  |  Delete Team  |  Deletion Team id : 14  |
+
+1430385801  |  1:anmani  |  Add Team  |  'Account Management','Account Management','neearora'  |

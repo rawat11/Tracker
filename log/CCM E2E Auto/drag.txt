@@ -1,0 +1,51 @@
+.LOG
+$(document).ready(function () {
+
+       $(#draggable).draggable();
+
+    });
+    $( function() {
+
+    $( '#drag' ).each( function() {
+
+        var $drag = $( this );
+
+
+        $drag.parent().css( {
+            'margin-left'       $drag.parent().offset().left + 'px'
+        } );
+
+        $drag.on( 'mousedown', function( ev ) {
+            var $this = $( this );
+            var $parent = $this.parent();
+            var poffs = $parent.position();
+            var pwidth = $parent.width();
+
+            var x = ev.pageX;
+            var y = ev.pageY;
+
+            $this.parent();
+
+            $( document ).on( 'mousemove.dragging', function( ev ) {
+                var mx = ev.pageX;
+                var my = ev.pageY;
+
+                var rx = mx - x;
+                var ry = my - y;
+
+                $parent.css( {
+                    'left'        (poffs.left + rx) + 'px',
+                    'width'       (pwidth - rx) + 'px'
+                } );
+
+
+            } ).on( 'mouseup.dragging mouseleave.draggign', function( ev) {
+                $( document ).off( '.dragging' );
+            } );
+
+
+        } );
+
+    } );
+
+} );
